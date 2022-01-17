@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div class="container_gray">
+      <div class="header">
+        <h2>netflix <span>musa</span></h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <div class="container-form">
+        <div class="section">
+          <form action="result.html" id="form" method="get" target="_blank">
+            <div class="input-box">
+              <label for="name">Name</label>
+              <br />
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="input-box">
+              <label for="age">Age</label>
+              <br />
+              <input type="number" name="age" id="age" />
+            </div>
+            <div class="input-box">
+              <label for="email">Email</label>
+              <br />
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="input-box">
+              <label for="content">content</label>
+              <br />
+              <select name="content" id="content" />
+              <option value="movies">movies</option>
+              <option selected value="series">Series</option>
+              <select />
+            </div>
+
+            <div class="input-box">
+              <label for="movie">Movies Type</label>
+              <br />
+
+              <input
+                type="checkbox"
+                name="movie"
+                id="first-check"
+                value="Comedy"
+              />
+              <label for="first-check">Comedy</label>
+              <br />
+              <input
+                type="checkbox"
+                name="movie"
+                id="third-check"
+                value="romance"
+                checked
+              />
+              <label for="third-check">Romance</label>
+              <br />
+              <input
+                type="checkbox"
+                name="movie"
+                id="second-check"
+                value="action"
+              />
+              <label for="second-check">Action</label>
+              <br />
+            </div>
+
+            <div class="input-box">
+              <label for="gender">Gender</label>
+              <br />
+              <input type="radio" name="gender" id="first-radio" value="male" />
+              <label for="first-radio">Male</label>
+              <br />
+              <input
+                type="radio"
+                name="gender"
+                id="second-radio"
+                value="female"
+              />
+              <label for="second-radio">Female</label>
+              <br />
+              <input
+                type="radio"
+                name="gender"
+                id="third-radio"
+                value="other"
+              />
+              <label for="third-radio">Other</label>
+            </div>
+            <div class="input-box">
+              <label for="feedback">Feedback</label>
+              <br />
+              <textarea
+                name="feedback"
+                id="feedback"
+                cols="30"
+                rows="10"
+                placeholder="any comments"
+              ></textarea>
+            </div>
+            <div id="form-submit">
+              <button type="submit" id="form-button">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
